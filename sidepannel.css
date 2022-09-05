@@ -1,8 +1,4 @@
- /* The sidepanel menu */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
- .sidepanel {
+  .sidepanel {
     height: 100%; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -13,8 +9,6 @@ body {
     overflow-x: auto; /* Disable horizontal scroll */
     padding-top: 10px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-    margin-top: 4px;
-    margin-left: 6pt;
   }
   
   /* The sidepanel links */
