@@ -1,14 +1,8 @@
-/* Add a black background color to the top navigation bar */
-* {box-sizing: border-box;}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 .topnav {
     overflow: hidden;
     background-color: rgba(123, 110, 191,0.815);
     overflow-x: hidden; 
     position: fixed;
-    margin-top: 4px;
     width: 100%;
     top: 0;
     height: 70px;
