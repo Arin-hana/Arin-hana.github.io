@@ -4,88 +4,267 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copy Store</title>
-    <link rel="stylesheet" href="cssjs/navbar.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      @font-face {font-family: carme; src: url(cssjs/fonts/carme-regular.ttf);}
+    </style>
+    <title>Copy Store</title>
 </head>
-<body class="bg-image" style="background-image: url(images/bg_main.png);">
-    <nav id="navbar" class="navbar navbar-dark" style="background-color: rgba(124, 110, 191, 0.9);  position : fixed; top: 0%; transition: top 0.3s; width: 100%; height: fit-content;">
-          <!--sidepannel-->
-          <div id="sidepannel" class="sidepanel">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/backbtn.png"></a>
-            <a href="vidbgtest.html">vidbgtest</a>
-            <a href="testing.html">prototype</a>
-            <a href="test.html">test</a>
-          </div>
-          
-          <button class="openbtn" onclick="openNav()"><img src="images/menu.png" style="width: 45px; height: 45px;"> </button>
-          
-          <!--searchpannel-->
-          <div class="mx-auto" style="width: 60%;">
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn" style="background-color: #5948AC;" type="submit"><img src="images/search.png" style="width: 20px; height: 20px; margin-bottom: 3px;"></button>
-            </form>
-          </div>
-    </nav>
-    <script src="cssjs/navbar.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!--Shittonoftext-->
-    <div style="padding-left: 15px; margin-top: 90px;">
-      <div class="container">
-        <div class="row">
-          <div class="col ">
-            <div class="px-4 border border-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat erat eget aliquet euismod. Phasellus nisl mi, convallis eget ex nec, consequat consequat arcu. Cras lobortis dolor nec lorem imperdiet, quis varius erat pharetra. Nam id tempor lacus. Praesent ornare velit vel fermentum luctus. Curabitur tortor felis, finibus at eros sed, porttitor imperdiet metus. Nam magna tortor, eleifend non porttitor quis, tempus a orci. Suspendisse rhoncus lacus urna, eu laoreet massa rutrum eget. Vestibulum semper neque quis metus tristique finibus. Morbi a diam enim. Donec at luctus risus. Fusce auctor in felis a tristique.
-            </div>
-          </div>
-          <div class="col">
-            <div class="px-4 border border-3">
-      Donec in nulla non lorem blandit rutrum sed nec mauris. Nam et eleifend quam. Maecenas iaculis facilisis elit et imperdiet. Curabitur pellentesque euismod ultricies. Maecenas porttitor magna non turpis ultricies, quis vulputate magna condimentum. Donec venenatis leo ac commodo euismod. Suspendisse venenatis eros vel dolor finibus molestie. Quisque lacinia fermentum tortor in tincidunt. Nulla vitae metus sit amet sapien imperdiet consectetur. Maecenas eleifend mattis ornare. Vivamus lacus sem, vestibulum in risus et, posuere aliquet purus. Cras ultrices ut eros vel blandit. Proin suscipit, enim nec pellentesque congue, metus turpis tincidunt ex, nec iaculis lectus justo in lacus.
-            </div>
-          </div>
-          <div class="col">
-            <div class="px-4 border border-3">
-      Nullam tristique pretium quam, ut egestas urna bibendum pellentesque. Vestibulum neque risus, ullamcorper sed condimentum sit amet, dignissim id erat. Aliquam vestibulum dolor nec sagittis tristique. Donec mattis tristique sodales. Nam tempus aliquam pretium. Ut gravida nisl eget mi fringilla viverra. Aliquam hendrerit quis lorem venenatis facilisis. Etiam tempor dui tincidunt, aliquet eros a, aliquet sem. Suspendisse consequat quam in odio mollis, eu dapibus elit semper. Vivamus gravida, velit at commodo laoreet, tortor nulla pharetra urna, in lobortis est elit vel eros. Proin tristique, mauris et aliquam scelerisque, sapien arcu feugiat elit, sit amet pharetra lectus erat in orci. Aliquam erat volutpat. Phasellus mattis vitae dolor in facilisis. Fusce rhoncus diam tellus, vel faucibus eros cursus sed. Donec porttitor nibh eu dui blandit, vel consectetur felis finibus.
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col ">
-            <div class="px-4 border border-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat erat eget aliquet euismod. Phasellus nisl mi, convallis eget ex nec, consequat consequat arcu. Cras lobortis dolor nec lorem imperdiet, quis varius erat pharetra. Nam id tempor lacus. Praesent ornare velit vel fermentum luctus. Curabitur tortor felis, finibus at eros sed, porttitor imperdiet metus. Nam magna tortor, eleifend non porttitor quis, tempus a orci. Suspendisse rhoncus lacus urna, eu laoreet massa rutrum eget. Vestibulum semper neque quis metus tristique finibus. Morbi a diam enim. Donec at luctus risus. Fusce auctor in felis a tristique.
-            </div>
-          </div>
-          <div class="col">
-            <div class="px-4 border border-3">
-      Donec in nulla non lorem blandit rutrum sed nec mauris. Nam et eleifend quam. Maecenas iaculis facilisis elit et imperdiet. Curabitur pellentesque euismod ultricies. Maecenas porttitor magna non turpis ultricies, quis vulputate magna condimentum. Donec venenatis leo ac commodo euismod. Suspendisse venenatis eros vel dolor finibus molestie. Quisque lacinia fermentum tortor in tincidunt. Nulla vitae metus sit amet sapien imperdiet consectetur. Maecenas eleifend mattis ornare. Vivamus lacus sem, vestibulum in risus et, posuere aliquet purus. Cras ultrices ut eros vel blandit. Proin suscipit, enim nec pellentesque congue, metus turpis tincidunt ex, nec iaculis lectus justo in lacus.
-            </div>
-          </div>
-          <div class="col">
-            <div class="px-4 border border-3">
-      Nullam tristique pretium quam, ut egestas urna bibendum pellentesque. Vestibulum neque risus, ullamcorper sed condimentum sit amet, dignissim id erat. Aliquam vestibulum dolor nec sagittis tristique. Donec mattis tristique sodales. Nam tempus aliquam pretium. Ut gravida nisl eget mi fringilla viverra. Aliquam hendrerit quis lorem venenatis facilisis. Etiam tempor dui tincidunt, aliquet eros a, aliquet sem. Suspendisse consequat quam in odio mollis, eu dapibus elit semper. Vivamus gravida, velit at commodo laoreet, tortor nulla pharetra urna, in lobortis est elit vel eros. Proin tristique, mauris et aliquam scelerisque, sapien arcu feugiat elit, sit amet pharetra lectus erat in orci. Aliquam erat volutpat. Phasellus mattis vitae dolor in facilisis. Fusce rhoncus diam tellus, vel faucibus eros cursus sed. Donec porttitor nibh eu dui blandit, vel consectetur felis finibus.
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col ">
-            <div class="px-4 border border-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat erat eget aliquet euismod. Phasellus nisl mi, convallis eget ex nec, consequat consequat arcu. Cras lobortis dolor nec lorem imperdiet, quis varius erat pharetra. Nam id tempor lacus. Praesent ornare velit vel fermentum luctus. Curabitur tortor felis, finibus at eros sed, porttitor imperdiet metus. Nam magna tortor, eleifend non porttitor quis, tempus a orci. Suspendisse rhoncus lacus urna, eu laoreet massa rutrum eget. Vestibulum semper neque quis metus tristique finibus. Morbi a diam enim. Donec at luctus risus. Fusce auctor in felis a tristique.
-            </div>
-          </div>
-          <div class="col">
-            <div class="px-4 border border-3">
-      Donec in nulla non lorem blandit rutrum sed nec mauris. Nam et eleifend quam. Maecenas iaculis facilisis elit et imperdiet. Curabitur pellentesque euismod ultricies. Maecenas porttitor magna non turpis ultricies, quis vulputate magna condimentum. Donec venenatis leo ac commodo euismod. Suspendisse venenatis eros vel dolor finibus molestie. Quisque lacinia fermentum tortor in tincidunt. Nulla vitae metus sit amet sapien imperdiet consectetur. Maecenas eleifend mattis ornare. Vivamus lacus sem, vestibulum in risus et, posuere aliquet purus. Cras ultrices ut eros vel blandit. Proin suscipit, enim nec pellentesque congue, metus turpis tincidunt ex, nec iaculis lectus justo in lacus.
-            </div>
-          </div>
-          <div class="col">
-            <div class="px-4 border border-3">
-      Nullam tristique pretium quam, ut egestas urna bibendum pellentesque. Vestibulum neque risus, ullamcorper sed condimentum sit amet, dignissim id erat. Aliquam vestibulum dolor nec sagittis tristique. Donec mattis tristique sodales. Nam tempus aliquam pretium. Ut gravida nisl eget mi fringilla viverra. Aliquam hendrerit quis lorem venenatis facilisis. Etiam tempor dui tincidunt, aliquet eros a, aliquet sem. Suspendisse consequat quam in odio mollis, eu dapibus elit semper. Vivamus gravida, velit at commodo laoreet, tortor nulla pharetra urna, in lobortis est elit vel eros. Proin tristique, mauris et aliquam scelerisque, sapien arcu feugiat elit, sit amet pharetra lectus erat in orci. Aliquam erat volutpat. Phasellus mattis vitae dolor in facilisis. Fusce rhoncus diam tellus, vel faucibus eros cursus sed. Donec porttitor nibh eu dui blandit, vel consectetur felis finibus.
-            </div>
-          </div>
+<body style="background-color: #8496A6;">
+<!--page 1-->
+<div class="mb-3">
+    <!--main navbar-->
+    <nav class="navbar navbar-dark" style="background-color: #648DBC;">
+      <div class="container-fluid">
+        <div class="container">
+            <nav class="navbar navbar-dark" style="background-color: #648DBC;">
+                <div class="container-fluid">
+                <a class="navbar-brand justify-content-start" href="#" style="font-family: carme;">Copy Store</a>
+                </div>
+            </nav>
         </div>
       </div>
+    </nav>
+    <!--botom navbar-->
+    <nav class="navbar navbar-dark" style="background-color: #818FBD;">
+        <div class="container-fluid">
+          <div class="container">
+            <nav class="nav navbar navbar-inverse navbar-header" style="background-color: #818FBD;">
+                <div class="container-fluid">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link rounded-start" href="#" style="background-color: #748FBD; color: #CCD7E9; font-family: carme;">New Arrival</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="background-color: #688FBB; color: #CCD7E9; font-family: carme;">Games</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="background-color: #748FBD; color: #CCD7E9; font-family: carme;">Figures</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link rounded-end" href="#" style="background-color: #688FBB; color: #CCD7E9; font-family: carme;">Other Goods</a>
+                    </li>
+                  </ul>
+    <!--search button-->
+                  <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link rounded" href="#" style="background-color: #748FBD; color: #CCD7E9; font-family: carme;">Search</a>
+                    </li>
+                  </ul>
+    <!--end of search button-->
+                </div>
+            </nav>
+         </div>
+        </div>
+    </nav>
+    <!--content-->
+    <div class="container-fluid pt-3">
+      <div class="container">
+        <div class="row">
+    <!--corousel-->
+          <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/ayameru.webp" class="d-block w-20" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/neechan.webp" class="d-block w-20" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ichika.webp" class="d-block w-20" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+        </div>
+    <!--end of casrousel-->
+    <!--Side Content-->
+        <div class="col-md-6">
+          <iframe width="640" height="360"
+          src="https://youtube.com/embed/p-ZNXwWIHI0">
+          </iframe> 
+        </div>
+    <!--End of Side content-->
+       </div>
+      </div>
     </div>
+    <!--end of content-->
+</div>
+<!--end of page 1-->
+<!--page 2-->
+<div style="background-color: #818FBD;">
+  <!--content-->
+  <div class="container-fluid pt-3">
+    <div class="container">
+      <div class="row">
+  <!--little bibs and bobs-->
+      <div class="col-md-6">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="pe-3 btn " style="width: 9rem;">
+              <a href="#"  class="card shadow" style="text-decoration: none;">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                 </a>
+             </div>
+             <div class="pe-3 btn " style="width: 9rem;">
+              <a href="#"  class="card shadow" style="text-decoration: none;">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                 </a>
+             </div>
+             <div class="pe-3 btn " style="width: 9rem;">
+              <a href="#"  class="card shadow" style="text-decoration: none;">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                 </a>
+             </div>
+             <div class="pe-3 btn " style="width: 9rem;">
+              <a href="#"  class="card shadow" style="text-decoration: none;">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                 </a>
+             </div>
+          </div>
+          <div class="row pb-3">
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+          </div>
+          <div class="row pb-3">
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+          </div>
+          <div class="row pb-3">
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+            <a href="#" class="pe-3 btn" style="width: 9rem;">
+              <div class="card">
+                <img src="images/oreimo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Card title</p>
+                  </div>
+                </div>
+              </a>
+          </div>
+      </div>
+    </div>
+  <!--end for that stuff-->
+  <!--Side Content-->
+      <div class="col-md-6">
+        <iframe width="640" height="360"
+        src="https://youtube.com/embed/p-ZNXwWIHI0">
+        </iframe> 
+      </div>
+  <!--End of Side content-->
+     </div>
+    </div>
+  </div>
+  <!--end of content-->
+</div>
+<!--end of page 2-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
