@@ -1,0 +1,36 @@
+.box  {
+    width: 167px;
+    height: 185px;
+    overflow: hidden;
+    background: #ffffff;
+    margin: 7px 7px;
+    float: left;
+    position: relative;
+    border: 1px #e3e3e3 solid;
+    transition: all 0.1s linear;
+  }
+.info  {
+    position: absolute;
+    bottom: 0px;
+    background: #FFF;
+    padding: 4px 8px 5px 7px;
+    width: 165px;
+    font-size: 12px;
+  }
+.item {
+    color: #3f3f3f;
+    font-weight: bold;
+    display: block;
+    text-overflow: ellipsis;
+    width: 162px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+.series {
+    color: #aaaaaa;
+    display: block;
+    text-overflow: ellipsis;
+    width: 162px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
