@@ -1,0 +1,121 @@
+/* font */
+@font-face {
+    font-family: poppins-thin-italic;
+    src: url(../materials/fonts/Poppins-ThinItalic.ttf);
+}
+@font-face {
+    font-family: poppins-thin;
+    src: url(../materials/fonts/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: poppins-light-extra;
+    src: url(../materials/fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+    font-family: poppins-light-extra-italic;
+    src: url(../materials/fonts/Poppins-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: poppins-light;
+    src: url(../materials/fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppins-light-itaic;
+    src: url(../materials/fonts/Poppins-LightItalic.ttf);
+}
+@font-face {
+    font-family: poppins-regular;
+    src: url(../materials/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-italic;
+    src: url(../materials/fonts/Poppins-Italic.ttf);
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url(../materials/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-medium-italic;
+    src: url(../materials/fonts/Poppins-MediumItalic.ttf);
+}
+@font-face {
+    font-family: poppins-bold-semi;
+    src: url(../materials/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: poppins-bold-semi-italic;
+    src: url(../materials/fonts/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(../materials/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppins-bold-italic;
+    src: url(../materials/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: poppins-bold-extra;
+    src: url(../materials/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: poppins-bold-extra-italic;
+    src: url(../materials/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: poppins-black;
+    src: url(../materials/fonts/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: poppins-black-italic;
+    src: url(../materials/fonts/Poppins-BlackItalic.ttf);
+}
+.thin{
+    font-family: poppins-thin;
+}
+.thin.italic{
+    font-family: poppins-thin-italic;
+}
+.light{
+    font-family: poppins-light
+}
+.light.italic{
+    font-family: poppins-light-italic
+}
+.light.extra{
+    font-family: poppins-light-extra
+}
+.light.extra.italic{
+    font-family: poppins-light-extra-italic
+}
+.medium{
+    font-family: poppins-medium;
+}
+.medium.italic{
+    font-family: poppins-medium-italic;
+}
+.regular{
+    font-family: poppins-regular;
+}
+.italic{
+    font-family: poppins-italic;
+}
+.bold{
+    font-family: poppins-bold;
+}
+.bold.italic{
+    font-family: poppins-bold-italic;
+}
+.bold.extra{
+    font-family: poppins-bold-extra;
+}
+.bold.extra.italic{
+    font-family: poppins-bold-extra-italic;
+}
+.black{
+    font-family: poppins-black;
+}
+.black.italic{
+    font-family: poppins-black-italic;
+}

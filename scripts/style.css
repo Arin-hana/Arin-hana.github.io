@@ -1,0 +1,149 @@
+body{
+    font-family: poppins-medium;
+    background-color: #F5F7FB;
+    background-image: url("../materials/textures/background/bgimage.png");
+    background-size: 100vh, 100vw;
+    background-repeat: repeat;
+    color: #0B0F14;
+}
+.navbar_style{
+    height: 5rem; 
+    backdrop-filter: blur(100px); 
+    opacity: 0.9;
+    font-family: poppins-medium;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: normal; 
+}
+.background_parallax{
+    width: 1005;
+    min-height: 64rem;
+    background: transparent;
+}
+.card_style{
+    width: 16rem;
+    height: 12.5rem;
+    border-radius: 0.75rem;
+}
+.card_title{
+    font-size: 2rem;
+}
+.card_text{
+    font-size: 0.75rem;
+}
+.card_button{
+    width: 7rem;
+    height: 1.875rem;
+    border-radius: 0.625rem;
+    font-size: 0.625rem;
+    margin-left: 7rem;
+}
+.news_card{
+    width: 31.25rem;
+    height: 48.75rem; 
+    border-radius: 1.25rem;
+    border: 2px solid #DDE7F5;
+    background: #FFF; 
+}
+.news_card_image{
+    width: 31rem;
+    height: 31rem; 
+    border-radius: 1.25rem; 
+}
+.news_card_title{
+    font-size: 1.5rem;
+    font-family: poppins-bold;
+    line-height: normal;
+}
+.news_card_button{
+    width: 12.5rem;
+    height: 3.5rem;
+    border-radius: 1.75rem;  
+}
+.news_card_secondary{
+    width: 49rem;
+    height: 15.25rem;
+    border-radius: 1.25rem;
+    border: 2px solid #DDE7F5;
+    background: #FFF;  
+}
+.news_card_image_secondary{
+    width: 10rem;
+    height: 10rem; 
+    border-radius: 1.25rem; 
+}
+.news_card_button_secondary{
+    width: 3rem; 
+    height: 3rem; 
+    margin-right: -0.6rem;
+}
+.list{
+    width: 21.125rem;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+.list_item{
+    height: 5rem;
+}
+.list_title{
+    font-family: poppins-bold-semi;
+    font-size: 0.75rem;
+    line-height: normal;
+}
+.list_subtitle{
+    font-family: poppins-medium;
+    font-size: 0.63rem;
+}
+.list_icon{
+    width: 3.5rem;
+}
+
+/* Colors */
+.background_white{
+    background-color: #F5F7FB;
+    --bs-btn-bg: #F5F7FB !important;
+    --bs-btn-hover-bg:  hsl(220, 43%, 87%) !important;
+
+}
+.background_primary{
+    background-color: #6199E8;
+    --bs-btn-bg: #6199E8 !important;
+    --bs-btn-hover-bg:  hsl(215, 75%, 55%) !important;
+}
+.background_secondary{
+    background-color: #8FAFDB;
+    --bs-btn-bg: #8FAFDB !important;
+    --bs-btn-hover-bg: hsl(215, 51%, 61%) !important;
+}
+.background_accent{
+    background-color: #6B99D9;
+    --bs-btn-bg: #6B99D9 !important;
+    --bs-btn-hover-bg:hsl(215, 59%, 54%) !important;
+}
+.background_black{
+    background-color: #0B0F14;
+    --bs-btn-bg: #0B0F14 !important;
+    --bs-btn-hover-bg:  hsl(213, 29%, 16%) !important;
+}
+.color_white{
+    color: #F5F7FB;
+}
+.color_primary{
+    color: #6199E8;
+}
+.color_secondary{
+    color: #8FAFDB;
+}
+.color_accent{
+    color: #6B99D9;
+}
+.color_black{
+    color: #0B0F14;
+}
+
+/* material theming */
+:root{
+    --md-assist-chip-outline-color: #8FAFDB; 	
+    --md-assist-chip-label-text-color: #8FAFDB;	
+    --md-assist-chip-label-text-font: poppins-light; 	
+}
