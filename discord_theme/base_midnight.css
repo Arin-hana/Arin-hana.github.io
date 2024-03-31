@@ -87,12 +87,10 @@
 }
 
 /* modify colors */
-#app-mount .container__7e23c /* channel list */,
 .privateChannels__9b518 /* dms list */,
 #app-mount .container_debb33 /* user panel inner */,
 .members__573eb /* member list inner */,
 .member_aa4760 /* member list members */,
-.sidebar_e031be /* channel sidebar */,
 .searchResultsWrap__2e184 /* search results */,
 .searchHeader__4d70e /* search results header */,
 .chat__52833.container_d4d35b /* message requests */,
@@ -130,6 +128,7 @@
 	background: var(--bg-1) !important;
 }
 .chat__52833 /* chat + member list */,
+.sidebar_e031be /* channel sidebar */,
 .privateChannels__9b518 .scroller__89969 /* dms list inner */,
 #app-mount .innerHeader_ccbd77:after /* channels and roles header shadow */,
 .attachedBars_c1606a /* reply bar underneath */ {
