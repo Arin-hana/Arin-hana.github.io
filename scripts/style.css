@@ -25,18 +25,24 @@ body{
     height: 12.5rem;
     border-radius: 0.75rem;
 }
+.card_body{
+    position: relative;
+}
 .card_title{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .card_text{
     font-size: 0.75rem;
+    margin-top: -10px;
 }
 .card_button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     width: 7rem;
     height: 1.875rem;
     border-radius: 0.625rem;
     font-size: 0.625rem;
-    margin-left: 7rem;
 }
 .news_card{
     width: 31.25rem;
