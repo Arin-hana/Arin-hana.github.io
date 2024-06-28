@@ -574,8 +574,8 @@ button.button_dd4f85 /* small buttons */,
 .base_a4d4d9 {
 	margin-left: var(--spacing);
 }
-.guilds_a4d4d9::after /* add bottom scroll shadow */
-/* .membersWrap_cbd271::after*/ { 
+.guilds_a4d4d9::after /* add bottom scroll shadow */,
+.membersWrap_cbd271::after { 
 	content: '';
 	position: absolute;
 	background: linear-gradient(transparent 85%, var(--bg-4) 100%);
